@@ -1,10 +1,9 @@
 // Función para cambiar el idioma
 function toggleLanguage() {
-    // Aquí iría la lógica para cambiar el idioma entre español e inglés
     alert("Cambiando idioma...");
 }
 
-// Función para mostrar la alerta
+// Función para mostrar la alerta de información de proyectos
 function showAlert() {
     document.getElementById('alert').style.display = 'flex';
 }
