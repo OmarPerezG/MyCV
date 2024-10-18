@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum de Omar Pérez</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS separado -->
 </head>
 <body>
 
@@ -16,12 +16,13 @@
 </header>
 
 <div class="container">
-    <!-- Secciones del currículum -->
+    <!-- Acerca de Mí -->
     <section id="acerca-de-mi">
         <h2>Acerca de Mí</h2>
-        <p>Soy un apasionado desarrollador de software con experiencia...</p>
+        <p>Soy un apasionado desarrollador de software con experiencia en la creación de soluciones tecnológicas innovadoras y eficientes. Con sólidos conocimientos en automatización y una amplia experiencia en la administración de proyectos, me especializo en liderar equipos de desarrollo y llevar productos desde la fase de concepto hasta su implementación.</p>
     </section>
 
+    <!-- Educación -->
     <section id="educacion">
         <h2>Educación</h2>
         <ul>
@@ -29,22 +30,106 @@
         </ul>
     </section>
 
+    <!-- Experiencia -->
     <section id="experiencia">
         <h2>Experiencia Laboral</h2>
         <ul>
-            <li><strong>Nexon Automation</strong> - Ingeniero de Controles...</li>
-            <li><strong>Freelance</strong> - Desarrollador de Software y Consultor...</li>
+            <li><strong>Nexon Automation</strong> - Ingeniero de Controles (Fecha inicio - Actual)
+                <p>Desarrollo de sistemas de automatización para General Motors México, gestionando proyectos de alto impacto en la industria automotriz.</p>
+            </li>
+            <li><strong>Freelance</strong> - Desarrollador de Software y Consultor (Fecha)
+                <p>He trabajado en múltiples proyectos de software personalizados para clientes, desde desarrollo web hasta aplicaciones empresariales a medida.</p>
+            </li>
         </ul>
     </section>
 
-    <!-- Habilidades, Proyectos, Reconocimientos y Hobbies... -->
+    <!-- Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="skills">
+            <div>JavaScript</div>
+            <div>Python</div>
+            <div>Java</div>
+            <div>HTML/CSS</div>
+            <div>SQL</div>
+            <div>Scrum</div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHV6IVR4_UrGA/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1728596674901?e=1729868400&v=beta&t=H4seOx_VZykqgBsx02SXpIkivKhmX4ONmPumi4xa_qs" alt="Proyecto 1">
+                <div class="card-content">
+                    <h3>FORKTRUCK EV</h3>
+                    <p>Forktruck EV es un innovador videojuego desarrollado en Unity Hub, diseñado especialmente para la feria de seguridad en la Planta Ramos Arizpe de General Motors de México.</p>
+                    <button class="info-button" onclick="showAlert()">Más Información</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/500x300/?coding" alt="Proyecto 2">
+                <div class="card-content">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción del proyecto 2.</p>
+                    <button class="info-button" onclick="showAlert()">Más Información</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reconocimientos -->
+    <section id="reconocimientos">
+        <h2>Reconocimientos</h2>
+        <ul>
+            <li>Certificado en Scrum Master - 2023</li>
+            <li>Premio a la Innovación - Nexon Automation, 2023</li>
+        </ul>
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <div class="hobbies-container">
+            <div class="hobby-item">
+                <i class="fas fa-camera"></i> Fotografía
+            </div>
+            <div class="hobby-item">
+                <i class="fas fa-plane"></i> Viajar
+            </div>
+            <div class="hobby-item">
+                <i class="fas fa-laptop-code"></i> Aprender
+            </div>
+            <div class="hobby-item">
+                <i class="fas fa-music"></i> Música
+            </div>
+        </div>
+    </section>
 </div>
 
 <footer>
     <p>© 2024 Omar Pérez Gutiérrez. Todos los derechos reservados.</p>
 </footer>
 
-<!-- Archivo JavaScript separado -->
+<!-- Alert para más información -->
+<div class="alert" id="alert">
+    <div class="alert-content">
+        <button class="close-button" onclick="closeAlert()">×</button>
+        <h3>Forktruck EV</h3>
+        <p>Forktruck EV es un innovador videojuego desarrollado en Unity Hub, diseñado especialmente para la feria de seguridad en la Planta Ramos Arizpe de General Motors de México. Este juego no solo ofrece entretenimiento emocionante, sino que también incorpora elementos educativos que permiten a los jugadores aprender sobre prácticas de seguridad.
+
+Con una jugabilidad envolvente y gráficos atractivos, Forktruck EV transforma la experiencia de formación en un juego interactivo donde los usuarios pueden poner a prueba sus habilidades en un entorno simulado. Los jugadores podrán enfrentar desafíos realistas que refuerzan la importancia de la seguridad laboral, convirtiendo el aprendizaje en una aventura divertida y memorable. ¡Prepárate para conducir, aprender y disfrutar en Forktruck EV!</p>
+        <h4>Imágenes del Proyecto:</h4>
+        <img src="https://media.licdn.com/dms/image/v2/D4E2DAQEgt7CwwIRcvg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728596714822?e=1729868400&v=beta&t=BTDJrYzKEf8pMxVZFo-rIZ5-QRGq9BNLJBdGfmB8xqA" alt="Imagen 1" style="width: 100px; height: auto; margin: 5px;">
+        <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHV6IVR4_UrGA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728596674925?e=1729868400&v=beta&t=s4hnomyx4XoiIl_fslYrrg1Hy7GlAUuLc2FYLqY2ds8" alt="Imagen 2" style="width: 100px; height: auto; margin: 5px;">
+        <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHCZmvHgGvPBw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728596640872?e=1729868400&v=beta&t=OjN4QnKBRHIkBW8QDS9YK2hsvMcsRwMGprDE8OZEuiQ" alt="Imagen 3" style="width: 100px; height: auto; margin: 5px;">
+        <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHPrz_kjVO4lw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728596867379?e=1729868400&v=beta&t=qsG4Wg5TED1LHORSzeAGKUhXTGi92kZR2alLrBwUlAU" alt="Imagen 4" style="width: 100px; height: auto; margin: 5px;">
+        <img src="https://media.licdn.com/dms/image/v2/D4E2DAQEF42A0l6R7CA/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728596929112?e=1729868400&v=beta&t=m1JDwybsKCkYTSWj_DSqWe1QKnYR4SkZWqQAMzdw7qo" alt="Imagen 5" style="width: 100px; height: auto; margin: 5px;">
+    </div>
+</div>
+
+<!-- Enlace al archivo JavaScript -->
 <script src="script.js"></script>
 
 </body>
