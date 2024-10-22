@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Currículum de Omar Pérez</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20230408/ourmid/pngtree-cv-icon-vector-design-png-image_6673358.png" />
+</head>
+
+<body>
+
+   <header>
+      <button class="language-toggle" onclick="toggleLanguage()">ES</button>
+      <img src="https://media.licdn.com/dms/image/v2/D4E03AQFWwnDQMHV_rg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728827724752?e=1735171200&v=beta&t=UjxRoz3F2d8dBioPsWRcPm0GmBmwcC8CNykgs4Djg0Y" alt="Foto de Omar Pérez" class="profile-pic">
+      <h1>Omar Pérez Gutiérrez</h1>
+      <p>Ingeniero en Desarrollo y Gestión de Software.</p>
+   </header>
+
+  
+  
+  
+  
+   <div class="button-container">
+      <a href="index.html" class="button">Inicio</a>
+      <a href="pagina2.html" class="button">Reconocimientos</a>
+      <a href="pagina3.html" class="button">Hobby´s</a>
+   </div>
+  
+<div class="card-container">
+  <div class="card">
+    <img src="https://media.licdn.com/dms/image/v2/D4E12AQHbNgOTbr-Qcg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1728661454897?e=1735171200&v=beta&t=dBns0sr3ni9DBJRjqFh86rhGXYGBoqNOwFI92_UJtxQ" alt="Imagen de ejemplo">
+    <div class="card-content">
+      <h3>Cómo Organizar un Equipo de Trabajo en Proyectos de Desarrollo de Software</h3>
+      <p>Organizar un equipo de trabajo de manera eficiente es clave para el éxito de cualquier proyecto de software. Una buena gestión no solo ayuda a cumplir con los plazos y objetivos, sino que también potencia la colaboración, la motivación y la innovación dentro del equipo.</p>
+      <a href="https://www.linkedin.com/pulse/c%C3%B3mo-organizar-un-equipo-de-trabajo-en-proyectos-omar-p%C3%A9rez-guti%C3%A9rrez-nyyle/?trackingId=ehX1614DsNWkn6mzO8Mb7w%3D%3D" class="btn">Más Información</a>
+    </div>
+  </div>
+
+  
+  
+  <div class="card">
+    <img src="https://media.licdn.com/dms/image/v2/D4E12AQE2AyxThlyy9A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1729115159479?e=1735171200&v=beta&t=9Td3g0Qq0T1xUZyPuJhdNXR0r2V-rc3xcbGiABnCwc4" alt="Imagen de ejemplo">
+    <div class="card-content">
+      <h3>¿Es la IA Beneficiosa para la Administración de Proyectos? Cómo Usarla para Maximizar Resultados</h3>
+      <p>En los últimos años, la inteligencia artificial (IA) ha irrumpido en múltiples sectores, y la administración de proyectos no es la excepción. Pero ¿es realmente la IA una ventaja para los gestores de proyectos? Y si lo es, ¿cómo puede implementarse de manera efectiva?</p>
+      <a href="https://www.linkedin.com/pulse/es-la-ia-beneficiosa-para-administraci%C3%B3n-de-proyectos-omar-9zx4e/?trackingId=aFQCzJ02qH7ceRLnExmRTA%3D%3D" class="btn">Más Información</a>
+    </div>
+  </div>
+
+  <!-- Agrega más tarjetas aquí -->
+  
+  
+    <div class="card">
+    <img src="https://media.licdn.com/dms/image/v2/D4E12AQHJ7hK93MFHTw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1728884412029?e=1735171200&v=beta&t=k11T-CxZxgMBXms50mnBzoYt4QHY-VjS237TMZ58DDE" alt="Imagen de ejemplo">
+    <div class="card-content">
+      <h3>Las Ventajas de Automatizar Procesos en el Desarrollo de Software</h3>
+      <p>En el desarrollo de software, la automatización ha pasado de ser una opción a convertirse en una necesidad. A medida que los proyectos crecen en complejidad y los tiempos de entrega se acortan, las organizaciones que apuestan por la automatización de sus procesos logran ser más competitivas y eficientes. A continuación, algunas de las principales ventajas de adoptar la automatización en los flujos de trabajo de desarrollo:</p>
+      <a href="https://www.linkedin.com/pulse/las-ventajas-de-automatizar-procesos-en-el-desarrollo-omar-eqy3e/?trackingId=iSQ0fXekufQNzY246yNssw%3D%3D" class="btn">Más Información</a>
+    </div>
+  </div>
+  
+  
+  
+      <div class="card">
+    <img src="https://media.licdn.com/dms/image/v2/D4E12AQFS_CJ78VJq5g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1729518845701?e=1735171200&v=beta&t=L65atWL2Fm7ECCl1DhYcpOBl4bVi82_-iZk8ItG9xYE" alt="Imagen de ejemplo">
+    <div class="card-content">
+      <h3>La Evolución de las Cámaras Fotográficas: Del Hardware al Software Inteligente</h3>
+      <p>La cámara fotográfica ha recorrido un largo camino desde sus inicios mecánicos y químicos hasta convertirse en una poderosa herramienta digital que ahora vive en el bolsillo de millones de personas. Como aficionado a la fotografía, he sido testigo de cómo la evolución de las cámaras no solo ha ocurrido en el hardware, sino también en el software, que ha transformado la forma en que tomamos y procesamos imágenes. Este artículo explora esa evolución, con un enfoque en cómo las marcas líderes han adoptado tecnologías innovadoras.</p>
+      <a href="https://www.linkedin.com/pulse/la-evoluci%C3%B3n-de-las-c%C3%A1maras-fotogr%C3%A1ficas-del-hardware-omar-8ofce/?trackingId=uI4wAXpfVsyRAuK1%2B%2BFLrQ%3D%3D" class="btn">Más Información</a>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+  
+  
+     <script src="scripts.js"></script>
+</body>
+
+</html>
