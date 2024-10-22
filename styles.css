@@ -235,7 +235,7 @@ ul li {
 /* Proyectos y Reconocimientos */
 .card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px;
 }
@@ -343,4 +343,25 @@ ul li {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
+        }
+
+        .button-container {
+            display: flex; /* Alinea los botones en horizontal */
+            justify-content: center; /* Centra los botones */
+            margin-top: 20px; /* Espacio superior */
+        }
+        .button {
+            background-color: #007bff; /* Color de fondo del botón */
+            border: none; /* Sin borde */
+            color: white; /* Color del texto */
+            padding: 15px 50px; /* Espaciado interno */
+            text-align: center; /* Centra el texto */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Para que se comporten como botones */
+            margin: 5px; /* Espacio entre botones */
+            cursor: pointer; /* Cambia el cursor al pasar el mouse */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+        .button:hover {
+            background-color: #45a049; /* Color de fondo al pasar el mouse */
         }
