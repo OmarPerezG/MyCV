@@ -1,146 +1,6 @@
 /* Estilos Generales */
 body {
-    font<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum de Omar Pérez</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-<header>
-    <button class="language-toggle" onclick="toggleLanguage()">ES</button>
-    <img src="https://media.licdn.com/dms/image/v2/D4E03AQFWwnDQMHV_rg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728827724752?e=1735171200&v=beta&t=UjxRoz3F2d8dBioPsWRcPm0GmBmwcC8CNykgs4Djg0Y" alt="Foto de Omar Pérez" class="profile-pic">
-    <h1>Omar Pérez Gutiérrez</h1>
-    <p>Ing. en Desarrollo y Gestión de Software | Software Development and Management Engineer.</p>
-</header>
-
-<div class="container">
-    <!-- Acerca de Mí -->
-    <section id="acerca-de-mi">
-        <h2>Acerca de Mí</h2>
-        <p>Soy un apasionado desarrollador de software con experiencia en la creación de soluciones tecnológicas innovadoras y eficientes. Con sólidos conocimientos en automatización y una amplia experiencia en la administración de proyectos, me especializo en liderar equipos de desarrollo y llevar productos desde la fase de concepto hasta su implementación.</p>
-    </section>
-
-    <!-- Educación -->
-    <section id="educacion">
-        <h2>Educación</h2>
-        <ul>
-            <li><strong>Universidad Tecnológica de Manzanillo 2020-2022</strong> - Tecnico en Tecnologías de la Información</li>
-        </ul>
-      <ul>
-            <li><strong>Universidad Tecnológica de Manzanillo 2022-2024</strong> - Ingenieria en Gestión y Desarrollo de Software</li>
-        </ul>
-      
-    </section>
-
-    <!-- Experiencia -->
-    <section id="experiencia">
-        <h2>Experiencia Laboral</h2>
-        <ul>
-            <li><strong>General Motors de México</strong> - Plant Floor System (Febrero 2024 - Actual)</li>
-            <li><strong>Nexon Automation</strong> - Ingeniero en Controles (Enero 2024 - Actual)</li>
-            <li><strong>GEPSOL</strong> - Coordinador de Proyectos (Diciembre 2021 - Agosto 2023)</li>
-            <li><strong>CELHM</strong> - Técnico  (Enero 2019 - Diciembre 2021)</li>
-        </ul>
-    </section>
-  
- <!-- Habilidades -->
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <div class="skills">
-            <div>JavaScript</div>
-            <div>Python</div>
-            <div>Java</div>
-            <div>HTML/CSS</div>
-            <div>SQL</div>
-            <div>Scrum</div>
-        </div>
-    </section>
-  
-    <!-- Proyectos -->
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div class="card-container">
-            <div class="card">
-                <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHV6IVR4_UrGA/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1728596674901?e=1730152800&v=beta&t=wnvPWV7VGn-40qWFDPG9XLgu1O3FG4eMi6cEp6OR1-s" alt="Forktruck EV">
-                <div class="card-content">
-                    <h3>Forktruck EV</h3>
-                    <p>Videojuego desarrollado en Unity para la feria de seguridad en General Motors México.</p>
-                    <button class="info-button" onclick="showAlert()">Más Información</button>
-                </div>
-            </div>
-            <!-- Agregar más proyectos aquí -->
-          
-        </div>
-    </section>
-
-    <!-- Reconocimientos -->
-<section id="reconocimientos">
-    <h2>Reconocimientos</h2>
-    <div class="card-container">
-        <div class="card">
-            <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHeWmFbeBJMnQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728676182315?e=1730149200&v=beta&t=CDo5J23IGkEI3jmJxhGGnj2z08sGaFgPCqKEMFuv-Xg" alt="Premio a la Innovación">
-            <div class="card-content">
-                <h3>Reconocimiento por la creación de FORKTRUCK EV</h3>
-                <p>Este es un reconocimiento que me otorgaron por la creación de un videojuego para General Motors de México Planta Ramos Arizpe.</p>
-            </div>
-        </div>
-        <div class="card">
-            <img src="https://media.licdn.com/dms/image/v2/D4E2DAQE7HsrekySH8A/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728680442780?e=1730152800&v=beta&t=YSi068hPWlJ6Jw6rW6gj3Cw-pwyi7NmF3JpcMNuL_R4" alt="Mejor Proyecto del Año">
-            <div class="card-content">
-                <h3>Reconocimiento Global por la creación de FORKTRUCK EV</h3>
-                <p>Gracias a la participación que tuve en la semana de seguridad en General Motors de México, obtuve un reconocimiento para todo el Departamento donde trabajo ya que la participación correspondía al Departamento, la creación del Videojuego fue realizada en su totalidad y obtuve apoyo de otras personas en la organización y realización del stand donde se presentó el videojuego.</p>
-            </div>
-        </div>
-        <!-- Agregar más reconocimientos aquí -->
-    </div>
-</section>
-
-
-    <!-- Hobbies -->
-    <section id="hobbies">
-        <h2>Hobbies</h2>
-        <div class="hobbies-container">
-            <div class="hobby-item">
-                <i class="fas fa-camera"></i>
-                <p>Fotografía</p>
-            </div>
-            <div class="hobby-item">
-                <i class="fas fa-plane"></i>
-                <p>Viajar</p>
-            </div>
-            <div class="hobby-item">
-                <i class="fas fa-book"></i>
-                <p>Aprender</p>
-            </div>
-            <div class="hobby-item">
-                <i class="fas fa-music"></i>
-                <p>Música</p>
-            </div>
-        </div>
-    </section>
-</div>
-
-<footer>
-    <p>&copy; 2024 Omar Pérez. Todos los derechos reservados.</p>
-</footer>
-
-<!-- Contenedor de la alerta -->
-<div id="alert">
-    <div class="alert-content">
-        <button class="close-button" onclick="closeAlert()">Cerrar</button>
-        <h2>Información del Proyecto</h2>
-        <p>Forktruck EV fue desarrollado en Unity Hub para la feria de seguridad de General Motors México, combinando gamificación y aprendizaje sobre seguridad industrial.</p>
-    </div>
-</div>
-
-<script src="scripts.js"></script>
-</body>
-</html>
--family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f2f5;
@@ -172,7 +32,7 @@ header p {
     color: #ffcc00;
 }
 
-/* Estilo para la imagen del perfil */
+/* Imagen del perfil */
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -274,7 +134,6 @@ ul li {
     line-height: 1.4;
 }
 
-
 /* Botón de información */
 .info-button {
     padding: 10px 15px;
@@ -290,7 +149,7 @@ ul li {
     background-color: #0056b3;
 }
 
-/* Estilo de Hobbies */
+/* Hobbies */
 .hobbies-container {
     display: flex;
     justify-content: space-around;
@@ -338,30 +197,33 @@ ul li {
     margin-bottom: 20px;
 }
 
-        /* Habilidades en Grid */
-        .skills {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
+/* Habilidades en Grid */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
-        .button-container {
-            display: flex; /* Alinea los botones en horizontal */
-            justify-content: center; /* Centra los botones */
-            margin-top: 20px; /* Espacio superior */
-        }
-        .button {
-            background-color: #007bff; /* Color de fondo del botón */
-            border: none; /* Sin borde */
-            color: white; /* Color del texto */
-            padding: 15px 50px; /* Espaciado interno */
-            text-align: center; /* Centra el texto */
-            text-decoration: none; /* Sin subrayado */
-            display: inline-block; /* Para que se comporten como botones */
-            margin: 5px; /* Espacio entre botones */
-            cursor: pointer; /* Cambia el cursor al pasar el mouse */
-            border-radius: 5px; /* Bordes redondeados */
-        }
-        .button:hover {
-            background-color: #45a049; /* Color de fondo al pasar el mouse */
-        }
+/* Botones en contenedor */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
