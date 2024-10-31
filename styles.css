@@ -296,3 +296,57 @@ ul li {
         font-size: 0.9em;
     }
 }
+.skills div {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   font-size: 1.2em;
+}
+
+.skills i {
+   color: #007bff; /* Cambia el color según tu preferencia */
+}
+
+
+
+footer {
+   background-color: #333;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+}
+
+.footer-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+.social-media a {
+   display: inline-flex;
+   align-items: center;
+   color: #fff;
+   font-size: 1.2em;
+   margin: 0 10px;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+.social-media i {
+   margin-right: 8px;
+}
+
+.social-media a:hover {
+   color: #4CAF50; /* Cambia el color en hover según tu preferencia */
+}
+
+.contact-info a {
+   color: #4CAF50;
+   text-decoration: none;
+}
+
+.footer-bottom {
+   margin-top: 20px;
+   font-size: 0.9em;
+}
